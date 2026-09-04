@@ -1,0 +1,279 @@
+.image {
+    height: 100vh;
+    margin-bottom: 10px;
+    margin-top: 0vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family:'Courier New', Courier, monospace Courier-new;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    /* overflow: hidden; */
+}
+
+
+img {
+    height: 50%;
+}
+
+.no_1 {
+    background-image: url("../images/background_1.jpg");
+}
+
+.no_2 {
+    background-image: url("../images/background_2.jpg");
+}
+
+.no_3 {
+    background-image: url("../images/background_3.jpg");
+}
+
+.no_4 {
+    background-image: url("../images/background_4.jpg");
+}
+
+.no_5 {
+    background-image: url("../images/background_5.jpg");
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111*/
+}
+
+.no_6 {
+    background-image: url("../images/background_6.jpg");
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111*/
+}
+
+.no_7 {
+    background-image: url("../images/background_7.jpg");
+    opacity: 0.7;
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111*/
+}
+
+.no_8 {
+    background-image: url("../images/background_8.jpg");
+}
+
+.no_9 {
+    background-image: url("../images/background_9.jpg");
+}
+
+.no_10 {
+    background-color: #201F25;
+
+}
+
+.no_11 {
+    background-color: #0D0D0D;
+}
+
+.no_12 {
+    background-color: white;
+}
+
+.no_13 {
+    height: 100vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: white;
+}
+
+.no_14 {
+    background-image: url("../images/background_14.jpg");
+    margin-top: 10px;
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!??????????????????????????????//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111*/
+
+}
+
+.no_15 {
+    background-color: white;
+}
+
+.no_16 {
+    background-image: url("../images/background_16.jpg");
+}
+
+.no_17 .no_0 {
+    background-color: black;
+}
+
+.photograph {
+    height: 90vh;
+    width: auto;
+    display: block;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.half {
+    display: block;
+}
+
+.left {
+    margin-left: 35vh;
+}
+
+.right {
+    position: static;
+    margin-left: 20vh;
+}
+
+.farright {
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    right: 0%;
+
+    /*???????????????????no space at botttttom????///*/
+}
+
+
+/*
+
+.no_18 {
+    background-image: url("../images/background_18.jpg");
+}
+
+.no_19 {
+    background-image: url("../images/background_19.jpg");
+}
+
+.no_20 {
+    background-image: url("../images/background_20.jpg");
+}
+
+.no_21 {
+    background-image: url("../images/background_21.jpg");
+}
+
+.no_22 {
+    background-image: url("../images/background_22.jpg");
+}
+
+.no_23 {
+    background-image: url("../images/background_23.jpg");
+}
+
+.no_24 {
+    background-image: url("../images/background_24.jpg");
+}
+
+.no_25 {
+    background-image: url("../images/background_25.jpg");
+}
+
+.no_26 {
+    background-image: url("../images/background_26.jpg");
+}
+
+.no_27 {
+    background-image: url("../images/background_27.jpg");
+}
+
+.no_28 {
+    background-image: url("../images/background_28.jpg");
+}
+
+.no_29 {
+    background-image: url("../images/background_29.jpg");
+}
+
+.no_30 {
+    background-image: url("../images/background_30.jpg");
+}
+
+.no_31 {
+    background-image: url("../images/background_31.jpg");
+}
+
+.no_32 {
+    background-image: url("../images/background_32.jpg");
+}
+
+.no_33 {
+    background-image: url("../images/background_33.jpg");
+}
+
+.no_34 {
+    background-image: url("../images/background_34.jpg");
+}
+
+.no_35 {
+    background-image: url("../images/background_35.jpg");
+}
+
+.no_36 {
+    background-image: url("../images/background_36.jpg");
+}
+
+.no_37 {
+    background-image: url("../images/background_37.jpg");
+}
+
+*/
+
+
+
+
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+/* https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+
+* {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+* :-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#include <iostream>
+using namespace std;
+int main()
+{
+    
+    for(int i = 10; i<= 37; i++){
+        cout<<".no_"<<i<<" {"<<endl;
+        cout<<" background-image: url(\"\../images/background_"<<i<<".jpg\"\);";
+        cout<<endl;
+        cout<<"}";  
+        cout<<endl;
+  
+    }
+        return 0;
+}
+*/
