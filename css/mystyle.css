@@ -105,14 +105,34 @@ img {
 }
 
 .photograph {
-    height: 90vh;
+    max-width: 100%;
+    max-height: 90vh;
     width: auto;
+    height: auto;
     display: block;
+    object-fit: contain;
 }
 
-.centered {
+.centered { /* This is for images that are centred in the middle of the background, 
+            and not multiple images that should be centred in the middle of the background */
+    max-width: 100%;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
+    object-fit: contain;
+}
+
+.centeredTwo { /* Though not tried with more than 2, 
+                I have confidence this is that second one for more than 2 images stacked ;) */
+    max-width: 50%;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
 }
 
 .half {
